@@ -1,0 +1,18 @@
+Angular project
+
+First we have to create new project:
+ng new project_name
+
+
+then we can add require packages like bootstrap
+
+
+then we will create the module using the ----> ng g module module_name   [here g stands for the generate] 
+
+then we will create the components for that module using the -----> ng g c module_name/index
+
+in this project we are going to perform the crud operation using the angular js so now we will create the component for that
+
+create the component for the edit,view,create using the commond ---> ng g c module_name/component_name
+
+now here 
