@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import { Post } from '../post';
 import { FormGroup, FormControl, Validators, ReactiveFormsModule } from '@angular/forms';
 import { PostService } from '../post.service';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 
 @Component({
   selector: 'app-edit',
   standalone: true,
-  imports: [CommonModule,ReactiveFormsModule],
+  imports: [CommonModule,ReactiveFormsModule, RouterModule],
   templateUrl: './edit.component.html',
   styleUrl: './edit.component.css'
 })
