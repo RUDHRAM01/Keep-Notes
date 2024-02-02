@@ -1,6 +1,6 @@
 <div class="container">
   <h1 class="text-center">Edit Post here...</h1>
-  <a href="#" routerLink="/post/index/" class="btn btn-warning">Back</a>
+  <a href="#" [routerLink]="['/post','index']" class="btn btn-warning">Back</a>
   <form [formGroup]="form" (ngSubmit)="submit()">
    <div class="form-group">
     <label for="title">Title</label>
